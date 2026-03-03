@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "rtc1.o" "i2cthings.o" --strict --scatter "rtc1.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\rtc1.map" -o "rtc1.axf"
