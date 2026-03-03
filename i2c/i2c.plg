@@ -1,0 +1,115 @@
+Build target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+i2cdefines.h(18): warning:  #1-D: last line of file ends without a newline
+i2cdefines.h:   #endif
+i2cdefines.h:         ^
+eeprom.c(21): error:  #20: identifier "dataadd" is undefined
+eeprom.c:                               i2cwrite(dataadd);
+eeprom.c:                                        ^
+lcdheader.h(88): warning:  #1-D: last line of file ends without a newline
+lcdheader.h:   }
+lcdheader.h:    ^
+main.c(14): error:  #140: too many arguments in function call
+main.c:         ch=eepromread(0x50,0x00);
+main.c:                            ^
+main.c: main.c: 2 warnings, 2 errors
+compiling i2cfun.c...
+i2cdefines.h(18): warning:  #1-D: last line of file ends without a newline
+i2cdefines.h:   #endif
+i2cdefines.h:         ^
+i2cfun.c(51): warning:  #1-D: last line of file ends without a newline
+i2cfun.c:   }
+i2cfun.c:    ^
+i2cfun.c: i2cfun.c: 2 warnings, 0 errors
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+i2cdefines.h(18): warning:  #1-D: last line of file ends without a newline
+i2cdefines.h:   #endif
+i2cdefines.h:         ^
+eeprom.c(21): error:  #20: identifier "dataadd" is undefined
+eeprom.c:                               i2cwrite(dataadd);
+eeprom.c:                                        ^
+lcdheader.h(88): warning:  #1-D: last line of file ends without a newline
+lcdheader.h:   }
+lcdheader.h:    ^
+main.c(14): error:  #140: too many arguments in function call
+main.c:         ch=eepromread(0x50,0x00);
+main.c:                            ^
+main.c: main.c: 2 warnings, 2 errors
+compiling i2cfun.c...
+i2cdefines.h(18): warning:  #1-D: last line of file ends without a newline
+i2cdefines.h:   #endif
+i2cdefines.h:         ^
+i2cfun.c(51): warning:  #1-D: last line of file ends without a newline
+i2cfun.c:   }
+i2cfun.c:    ^
+i2cfun.c: i2cfun.c: 2 warnings, 0 errors
+compiling eeprom.c...
+i2cdefines.h(18): warning:  #1-D: last line of file ends without a newline
+i2cdefines.h:   #endif
+i2cdefines.h:         ^
+eeprom.c(21): error:  #20: identifier "dataadd" is undefined
+eeprom.c:                               i2cwrite(dataadd);
+eeprom.c:                                        ^
+eeprom.c: eeprom.c: 1 warning, 1 error
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+i2cdefines.h(18): warning:  #1-D: last line of file ends without a newline
+i2cdefines.h:   #endif
+i2cdefines.h:         ^
+lcdheader.h(88): warning:  #1-D: last line of file ends without a newline
+lcdheader.h:   }
+lcdheader.h:    ^
+lcdheader.h: main.c: 2 warnings, 0 errors
+compiling i2cfun.c...
+i2cdefines.h(18): warning:  #1-D: last line of file ends without a newline
+i2cdefines.h:   #endif
+i2cdefines.h:         ^
+i2cfun.c(51): warning:  #1-D: last line of file ends without a newline
+i2cfun.c:   }
+i2cfun.c:    ^
+i2cfun.c: i2cfun.c: 2 warnings, 0 errors
+compiling eeprom.c...
+i2cdefines.h(18): warning:  #1-D: last line of file ends without a newline
+i2cdefines.h:   #endif
+i2cdefines.h:         ^
+i2cdefines.h: eeprom.c: 1 warning, 0 errors
+linking...
+i2c.axf: Error: L6200E: Symbol eepromwrite multiply defined (by eeprom.o and main.o).
+i2c.axf: Error: L6200E: Symbol eepromread multiply defined (by eeprom.o and main.o).
+i2c.axf: Not enough information to list image symbols.
+i2c.axf: Not enough information to list the image map.
+i2c.axf: Finished: 2 information, 0 warning and 2 error messages.
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+i2cdefines.h(18): warning:  #1-D: last line of file ends without a newline
+i2cdefines.h:   #endif
+i2cdefines.h:         ^
+lcdheader.h(88): warning:  #1-D: last line of file ends without a newline
+lcdheader.h:   }
+lcdheader.h:    ^
+lcdheader.h: main.c: 2 warnings, 0 errors
+compiling i2cfun.c...
+i2cdefines.h(18): warning:  #1-D: last line of file ends without a newline
+i2cdefines.h:   #endif
+i2cdefines.h:         ^
+i2cfun.c(51): warning:  #1-D: last line of file ends without a newline
+i2cfun.c:   }
+i2cfun.c:    ^
+i2cfun.c: i2cfun.c: 2 warnings, 0 errors
+compiling eeprom.c...
+i2cdefines.h(18): warning:  #1-D: last line of file ends without a newline
+i2cdefines.h:   #endif
+i2cdefines.h:         ^
+i2cdefines.h: eeprom.c: 1 warning, 0 errors
+linking...
+Program Size: Code=2348 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"i2c.axf" - 0 Error(s), 5 Warning(s).
