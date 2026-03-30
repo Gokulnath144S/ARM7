@@ -1,5 +1,5 @@
-#include<lpc21xx.h>
-#include"lcdheader.h"
+#include<lpc21xx.h>    //bus number board for example 91 KILAMBAKKAM
+#include"lcdheader.h"//                               via -perungudi -kamatchi - chromepet - vandaloor
 
 unsigned char cgram_lut[]={
 0x00,0x1f,0x11,0x11,0x11,0x11,0x1f,0x01,
